@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 测试产物
+.pytest_cache/
+.coverage
+htmlcov/
+reports/
+allure-results/
+
+# 环境变量与密钥：绝不能提交
+.env
+*.local
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 系统
+Thumbs.db
+desktop.ini
